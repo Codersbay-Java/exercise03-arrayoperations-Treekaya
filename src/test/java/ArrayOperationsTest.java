@@ -17,10 +17,11 @@ class ArrayOperationsTest {
     public ArrayOperationsTest() {
         numbers = new int[ELEMENTS];
         for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = new Random().nextInt(100);
+            //numbers[i] = new Random().nextInt(100);
+            numbers[i] = 69;
         }
         // for testing contains we insert 250 at random position
-        numbers[new Random().nextInt(ELEMENTS)] = 250;
+        //numbers[new Random().nextInt(ELEMENTS)] = 250;
 
         // clone the numbers array to have a reference.
         unsorted = numbers.clone();
